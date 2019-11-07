@@ -12,7 +12,7 @@ Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub
 
 **Prerequisite**
 
-`$ sudo pip3 install ***`
+`$ sudo pip3 install textblob`
 
 **GitClone**
 
@@ -34,4 +34,5 @@ Don't hesitate to create an issue or make a suggestion!
 
 ###### Todo List
 - [x] Set-up repository
-- [ ] Release code
+- [x] Release code
+- [ ] Expand/Improve code
