@@ -31,8 +31,3 @@ $ cyan -file yourtextinput.txt -lists yourconcepts.txt
 ## Thank you! :no_mouth:
 
 Don't hesitate to create an issue or make a suggestion!
-
-###### Todo List
-- [x] Set-up repository
-- [x] Release code
-- [ ] Expand/Improve code
