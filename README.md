@@ -2,7 +2,7 @@
 
 <img src="logos-maize.png" align="right" alt="maize logo" width="200">
 
-Introducing `maize` - a chat bot...
+Introducing `maize` - a CLI script to talk to. Small script to run, which asks you about your feelings - currently very basic.
 
 Please **note**: as I am not an expert, the script may not work as expected. 
 
@@ -25,7 +25,7 @@ Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub
 ## Running
 
 ```
-$ cyan -file yourtextinput.txt -lists yourconcepts.txt
+$ maize
 ```
 
 ## Thank you! :no_mouth:
