@@ -15,7 +15,7 @@ def main():
     
     colours = ["\033[1;31;48m", # red
                "\033[1;32;48m", # green
-               "\033[1;33;48m", # yellow
+               "\033[0;33;48m", # yellow
                "\033[1;34;48m", # blue
                "\033[1;35;48m", # pink
                #"\033[1;36;40m", # cyan - can;t use this! CYANNOTATOR DOES!
@@ -42,11 +42,11 @@ def main():
     ##################################################
     
     path = os.path.dirname(__file__)+"/input/name.txt"
-    path_file = open(path, "r")
+    path_file_name = open(path, "r")
     name = ""
-    for n in path_file:
+    for n in path_file_name:
         name = n
-    path_file.close()
+    path_file_name.close()
     
     
     if len(name) == 0:
@@ -81,11 +81,11 @@ def main():
     print("Setting up...")
     
     path = os.path.dirname(__file__)+"/input/emotion.txt"
-    path_file = open(path, "r")
+    path_file_emotion = open(path, "r")
     emotion = ""
-    for e in path_file:
+    for e in path_file_emotion:
         emotion = e.lower().strip()
-    path_file.close()
+    path_file_emotion.close()
     
     time.sleep(3)
     
