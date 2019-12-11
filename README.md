@@ -4,7 +4,7 @@
 
 Introducing `maize` - a CLI script to talk to. Small script to run, which asks you about your feelings - currently very basic.
 
-Please **note**: as I am not an expert, the script may not work as expected. 
+Please **note**: as I am not an expert, the script may not work as expected.
 
 Author __Samantha C Pendleton__, [Twitter](https://twitter.com/sap218) & [GitHub](https://github.com/sap218) | **Python v3.5**
 
