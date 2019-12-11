@@ -10,6 +10,7 @@ import os
 import time
 from textblob import TextBlob
 
+from pathlib import Path
 
 def main():
     
@@ -41,7 +42,10 @@ def main():
     ################################################## NAME
     ##################################################
     
-    path = os.path.dirname(__file__)+"/input/name.txt"
+    os.makedirs(os.path.join(os.path.expanduser('~'), '.maize'), exist_ok=True)
+    path = os.path.join(os.path.expanduser('~'), '.maize', 'input.txt')
+    #path = os.path.dirname(__file__)+"/input/name.txt"
+    Path(path).touch()
     path_file_name = open(path, "r")
     name = ""
     for n in path_file_name:
@@ -80,7 +84,9 @@ def main():
     
     print("Setting up...")
     
-    path = os.path.dirname(__file__)+"/input/emotion.txt"
+    path = os.path.join(os.path.expanduser('~'), '.maize', 'emotion.txt')
+    #path = os.path.dirname(__file__)+"/input/emotion.txt"
+    Path(path).touch()
     path_file_emotion = open(path, "r")
     emotion = ""
     for e in path_file_emotion:
@@ -266,7 +272,7 @@ def main():
         if old_emotion == "sad":
             print("Especially since you felt %s last time." % sad)
         elif old_emotion == "happy":
-            print("I am really happy for you!." % happy)
+            print("I am really %s for you!." % happy)
         print("Maybe we can meet again soon to talk more!")
     elif emotion == "unsure":
         print("I apologise for not fully understanding your emotions. Maybe we can try again somtime in the future?")
